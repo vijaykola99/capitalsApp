@@ -1,0 +1,56 @@
+.app-background {
+  background: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countries-background {
+  background: #f8fafc;
+  padding: 40px;
+  border-radius: 9px;
+  margin: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #323f4b;
+  margin-bottom: 20px;
+}
+.select {
+  border: 1px solid #cbd2d9;
+  padding: 9px;
+  border-radius: 3px;
+  margin-right: 9px;
+  margin-bottom: 20px;
+  outline: none;
+  width: 150px;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.span {
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.country-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .select {
+    width: 90px;
+  }
+  .countries-background {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
